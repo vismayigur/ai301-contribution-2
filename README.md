@@ -1,15 +1,17 @@
-# Contribution [#]: [Issue Title]
+# Contribution 2: Improve error handling in Contact Form
 
-**Contribution Number:** [1 / 2 / 3]  
-**Student:** [Your Name]  
-**Issue:** [GitHub issue link]  
-**Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
+**Contribution Number:** 2  
+**Student:** Vismay Igur
+**Issue:** https://github.com/Vets-Who-Code/vets-who-code-app/issues/874
+**Status:** Phase I Complete
 
 ---
 
 ## Why I Chose This Issue
 
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+I chose this issue because it is a small but meaningful improvement that directly affects the user experience. Clear error messages make an application easier to use and debug, and I liked that this task focuses on making the contact form more reliable rather than simply adding a new feature. It also matches my experience working with React and TypeScript, especially handling frontend logic and thinking about edge cases.
+
+I am also interested in gaining more experience contributing to an existing codebase and understanding how production applications approach error handling. Through this issue, I hope to improve my knowledge of TypeScript error type checking, user-friendly error messages, and production error logging while making a useful contribution to the project.
 
 ---
 
