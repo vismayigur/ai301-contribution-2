@@ -56,7 +56,7 @@ The API responds with 400 and the payload includes Message is too short for subm
 ### Reproduction Evidence
 
 - **Commit showing reproduction:** TBD
-- **Screenshots/logs:** ![Description of image](Screenshot 2026-07-19 at 10.43.30 PM.png)
+- **Screenshots/logs:** ![Error screenshot](Screenshot 2026-07-19 at 10.43.30 PM.png)
 - **My findings:** 
 The backend is behaving correctly and returning specific error details. The bug is in the frontend catch block, which discards the thrown Axios error and always shows the same fallback message.
 
@@ -91,7 +91,8 @@ Those files show the repo already uses axios.isAxiosError(error) and reads error
 4. Fall back to the existing generic text only when no specific server message is available.
 5. Add or update tests so we prove the form shows backend-provided messages for known failure cases.
 
-**Implement:** [Link to your branch/commits as you work]
+**Implement:** 
+https://github.com/vismayigur/vets-who-code-app/tree/fix-issue-874
 
 **Review:** 
 My self-review checklist will use the repo’s actual tooling and conventions already present in package.json:
