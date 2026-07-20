@@ -56,7 +56,7 @@ The API responds with 400 and the payload includes Message is too short for subm
 ### Reproduction Evidence
 
 - **Commit showing reproduction:** TBD
-- **Screenshots/logs:** (<Screenshot 2026-07-19 at 10.43.30 PM.png>)
+- **Screenshots/logs:** ![Description of image](Screenshot 2026-07-19 at 10.43.30 PM.png)
 - **My findings:** 
 The backend is behaving correctly and returning specific error details. The bug is in the frontend catch block, which discards the thrown Axios error and always shows the same fallback message.
 
